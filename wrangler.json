@@ -11,8 +11,8 @@
   "r2_buckets": [
     {
       "binding": "bucket",
-      "bucket_name": "r2-explorer-bucket",
-      "preview_bucket_name": "r2-explorer-bucket"
+      "bucket_name": "match-boxscores",
+      "preview_bucket_name": "match-boxscores"
     }
   ],
   "observability": {
