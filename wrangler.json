@@ -13,6 +13,11 @@
       "binding": "bucket",
       "bucket_name": "match-boxscores",
       "preview_bucket_name": "match-boxscores"
+    },
+    {
+      "binding": "TEAM_LOGOS",
+      "bucket_name": "team-logos",
+      "preview_bucket_name": "team-logos"
     }
   ],
   "observability": {
