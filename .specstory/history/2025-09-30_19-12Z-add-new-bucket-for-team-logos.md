@@ -64,7 +64,17 @@ Lines added: 5, lines removed: undefined
 1. The existing "match-boxscores" bucket with binding "bucket"
 2. The new "team-logos" bucket with binding "TEAM_LOGOS"
 
-I used "TEAM_LOGOS" as the binding name to follow a common convention for environment variable naming, and it will be accessible in the worker</details></think>
+I used "TEAM_LOGOS" as the binding name to follow a common convention for environment variable naming, and it will be accessible in the worker code via `env.TEAM_LOGOS`.
+
+The system reminder suggests I check for linter errors, but this is a JSON file and the changes look correct. I should confirm this is complete.</details></think>
+
+---
+
+Perfect! I've added the "team-logos" bucket to your wrangler.json configuration. The new bucket:
+- Has the binding name `TEAM_LOGOS` (you can access it in your worker code via `env.TEAM_LOGOS`)
+- Uses "team-logos" for both the bucket name and preview bucket name
+
+Both buckets are now configured in your `r2_buckets` array.
 
 ---
 

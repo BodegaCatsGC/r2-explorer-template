@@ -10,7 +10,7 @@
   },
   "r2_buckets": [
     {
-      "binding": "bucket",
+      "binding": "match_boxscores",
       "bucket_name": "match-boxscores",
       "preview_bucket_name": "match-boxscores"
     },
